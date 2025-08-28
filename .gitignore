@@ -46,3 +46,28 @@ wp-config.php
 # Note: If you wish to whitelist themes,
 # uncomment the next line
 #/wp-content/themes
+
+node_modules
+tmp
+context
+coverage
+hubspot.config.yml
+hubspot.config.yaml
+hs-acceptance-test.config.yml
+npm-debug.log
+npm-debug.log.*
+*.log
+.DS_Store
+coverage
+.env
+dist
+.node-version
+yarn.lock
+
+# Acceptance Tests
+acceptance-tests/my-project
+acceptance-tests/*.yml
+acceptance-tests/*.html
+acceptance-tests/test-output
+
+**/.claude/settings.local.json
